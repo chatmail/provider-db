@@ -1,6 +1,6 @@
-# Delta Chat Provider Info
+# E-mail provider database 
 
-This repository collects information on email providers and their interoperability with Delta Chat.
+This repository collects information on email providers and their interoperability which is used by the chatmail/core library. 
 
 Parts of that information (the metadata, aka front matter) is included into the deltachat-core, to provides them to the Delta Chat apps on the different platforms.
 The import is done by running [this script](https://github.com/deltachat/deltachat-core-rust/blob/master/src/provider/update.py) in the core repository: `./src/provider/update.py ../provider-db/_providers/ > src/provider/data.rs`

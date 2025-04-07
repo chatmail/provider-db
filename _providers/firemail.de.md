@@ -11,7 +11,7 @@ website: https://firemail.de
 ---
 
 Firemail erlaubt nur bei bezahlten Accounts den vollen Zugriff auf das E-Mail-Protokoll
-(Delta Chat und die meisten anderen Apps erfordern IMAP _und_ SMTP).
+(IMAP _und_ SMTP).
 
 Weiterhin schränkt Firemail leider die maximale Größe von Gruppen ein,
 selbst wenn Sie einen bezahlten Account verwenden.

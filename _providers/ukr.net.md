@@ -18,4 +18,4 @@ last_checked: 2024-08
 website: https://www.ukr.net/
 ---
 
-To use your ukr.net email address with Delta Chat you have to enable access for 3rd party applications through IMAP. Please see [ukr.net's own article on how to do that](https://wiki.ukr.net/ManageIMAPAccess).
+To use your ukr.net email address you have to enable access for 3rd party applications through IMAP. Please see [ukr.net's own article on how to do that](https://wiki.ukr.net/ManageIMAPAccess).

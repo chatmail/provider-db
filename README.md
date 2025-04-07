@@ -2,10 +2,14 @@
 
 This repository collects information on email providers and their interoperability which is used by the chatmail/core library. 
 
-Parts of that information (the metadata, aka front matter) is included into the deltachat-core, to provides them to the Delta Chat apps on the different platforms.
-The import is done by running [this script](https://github.com/deltachat/deltachat-core-rust/blob/master/src/provider/update.py) in the core repository: `./src/provider/update.py ../provider-db/_providers/ > src/provider/data.rs`
+**The header of the files,** the _front matter_, is included into [chatmail/core](https://github.com/chatmail/core),
+to provides them to the [chatmail apps](https://chatmail.at/clients) on the different platforms.
+Update is done by setting the desired commit as `REV=`
+in [chatmail/core/scripts/create-provider-data-rs.py](https://github.com/chatmail/core/blob/main/scripts/create-provider-data-rs.py) and the run the script.
 
-The page's content is built into a web page that shows the status of the respective provider regarding its usage with Delta Chat, and details possibly required preparation steps, or explains why the interoperability is broken.
+**The page's content** is built into a web page
+that shows the status of the respective provider regarding its usage with chatmail apps,
+and details possibly required preparation steps, or explains why the interoperability is broken.
 
 
 ## Format
@@ -64,7 +68,9 @@ or consider using `after_login_hint`, which is shown also for status `OK`.
 
 ### PREPARATION
 
-This status means that the user must do some preparing steps before they can use Delta Chat with their provider. For example enabling IMAP/SMTP at their provider's settings, or creating an app-specific password.
+This status means that the user must do some preparing steps
+before they can use a chatmail app with their provider.
+For example enabling IMAP/SMTP at their provider's settings, or creating an app-specific password.
 
 The required steps must be described as page content in a friendly, helpful howto-style.
 
@@ -72,7 +78,7 @@ Additionally a short, informative sentence must be written as `before_login_hint
 
 ### BROKEN
 
-This status means that Delta Chat will not work with this provider.
+This status means that Chatmail will not work with this provider.
 
 The problems blocking the usage must be summarized as page content in a friendly tone.
 
@@ -83,8 +89,8 @@ Additionally a short, informative sentence must be written as `before_login_hint
 
 ## Configuration Defaults
 
-Beside the server-configuration, Delta Chat has several other options
-that can typically be set by the user at runtime.
+Beside the server-configuration, chatmail/core has several other options
+that can typically be using chatmail apps at runtime.
 In most cases the global-default for these options are fine for most providers,
 however, if not, you have the possibility to define provider-specific-defaults
 with the `config_defaults` section.
@@ -92,7 +98,7 @@ with the `config_defaults` section.
 The api for that is a bit low-level: you have to define key-value-pairs
 where the keys have to match the names used in the API, the values have to be
 plain numeric values, see
-[Delta Chat API](https://c.delta.chat/classdc__context__t.html#aff3b894f6cfca46cab5248fdffdf083d)
+[Chatmail API](https://c.delta.chat/classdc__context__t.html#aff3b894f6cfca46cab5248fdffdf083d)
 for details.
 
 The provider-specific-defaults are applied _once_
@@ -109,7 +115,7 @@ Supported authorizer is `yandex`.
 
 In contrast to other authorization methods, you cannot use OAuth2
 only because the server may support it.
-New OAuth2 authorizers require adaptions in deltachat-core
+New OAuth2 authorizers require adaptions in chatmail/core
 and typically also bureaucratic effort.
 
 ### Use OAuth2 together with other options

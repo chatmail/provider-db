@@ -192,17 +192,17 @@ domains:
 - uymail.com
 - 2trom.com
 before_login_hint: |
-  To log in with Delta Chat, you first need to activate POP3/IMAP in your mail.com settings. Note that this is a mail.com Premium feature only.
+  To log in, you first need to activate POP3/IMAP in your mail.com settings. Note that this is a mail.com Premium feature only.
 last_checked: 2024-03
 website: https://mail.com/
 ---
 
-To log in with Delta Chat,
+To log in,
 you first need to
 [activate POP3/IMAP in your mail.com settings](https://support.mail.com/pop-imap/toggle.html).
 Note that this is a __[mail.com Premium](https://www.mail.com/mail/premium/)__
 feature __only__.
 
 For older free accounts IMAP access was not deactivated to this date,
-so if you have a client set up with IMAP,
-it should work on DeltaChat too.
+so if you have already a client set up with IMAP,
+it should work here too.

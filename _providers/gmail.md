@@ -22,14 +22,14 @@ last_checked: 2024-08
 website: https://gmail.com
 ---
 
-To use Delta Chat with your Gmail email address,
+To use your Gmail email address,
 you need to enable **2-Step Verification** in your Google Account
 and then **Create an app-specific password**.
 
 This means to create an additional password which you use only for one device or app.
 Please [follow Google's instructions](https://support.google.com/accounts/answer/185833),
 create an app-password at <https://myaccount.google.com/apppasswords>
-and then use the newly generated password to log in with Delta Chat.
+and then use the newly generated password to log in.
 
 If you still have login problems,
 make sure IMAP is enabled in the Gmail web interface

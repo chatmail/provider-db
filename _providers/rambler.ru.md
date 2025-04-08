@@ -32,9 +32,9 @@ server:
   # But many of those don't appear to actually work right now,
   # our CI fails.
 before_login_hint: |
-  Чтобы войти в Рамблер/почта через Delta Chat, необходимо предварительно включить доступ с помощью почтовых клиентов на сайте mail.rambler.ru
+  Чтобы войти в Рамблер/почта через chatmail, необходимо предварительно включить доступ с помощью почтовых клиентов на сайте mail.rambler.ru
 last_checked: 2024-03
 website: https://mail.rambler.ru/
 ---
 
-Чтобы войти в Рамблер/почта через Delta Chat, необходимо [включить доступ с помощью почтовых клиентов на сайте mail.rambler.ru](https://help.rambler.ru/mail/mail-nastrojki-pochtovogo-yashika/2129/)
+Чтобы войти в Рамблер/почта через chatmail, необходимо [включить доступ с помощью почтовых клиентов на сайте mail.rambler.ru](https://help.rambler.ru/mail/mail-nastrojki-pochtovogo-yashika/2129/)

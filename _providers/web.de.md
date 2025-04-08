@@ -55,13 +55,13 @@ last_checked: 2020-01
 website: https://web.de
 ---
 
-To use your web.de email address with Delta Chat you have to enable IMAP access. Please see [web.de's own article on how to do that](https://hilfe.web.de/pop-imap/einschalten.html).
+To use your web.de email address you have to enable IMAP access. Please see [web.de's own article on how to do that](https://hilfe.web.de/pop-imap/einschalten.html).
 
-Afterwards you can use Delta Chat with your web.de email address and the newly created password.
+Afterwards you can use your web.de email address and the newly created password.
 
 ## Disable 3-Way Spam Protection
 
-If the 3-Way Spam Protection is enabled in the web.de settings, Delta Chat
+If the 3-Way Spam Protection is enabled in the web.de settings, things
 won't work as expected, as all emails by unknown contacts will be moved to the
 "Unbekannt" folder instead of the Inbox. 
 
@@ -71,4 +71,4 @@ Protection, as described here:
 
 ![3-Wege-Spamschutz in den web.de-Einstellungen](../assets/img/web.de-spam-protection.png)
 
-One more tip: In case you find that Delta Chat messages are not moved into the designated "DeltaChat"-folder of your email account, please make sure that you have less than 40 folders altogether. Apparently web.de allows only for 40 folders. Note that also folders in the trash do count.
+One more tip: In case you find that messages are not moved into the designated "DeltaChat"-folder of your email account, please make sure that you have less than 40 folders altogether. Apparently web.de allows only for 40 folders. Note that also folders in the trash do count.

@@ -25,7 +25,7 @@ server:
 before_login_hint: |
   Вам необходимо сгенерировать "пароль для внешнего приложения" в веб-интерфейсе mail.ru
   https://account.mail.ru/user/2-step-auth/passwords/
-  чтобы vk.com работал с Delta Chat.
+  чтобы vk.com работал с chatmail.
 last_checked: 2024-07
 website: https://vk.mail.ru/
 # Also apparently OAuth is supported as well:
@@ -34,4 +34,4 @@ website: https://vk.mail.ru/
 
 Вам необходимо сгенерировать "пароль для внешнего приложения" в веб-интерфейсе mail.ru
 <https://account.mail.ru/user/2-step-auth/passwords/>
-чтобы vk.com работал с Delta Chat.
+чтобы vk.com работал с chatmail.

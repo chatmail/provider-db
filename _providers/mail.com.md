@@ -205,4 +205,4 @@ feature __only__.
 
 For older free accounts IMAP access was not deactivated to this date,
 so if you have already a client set up with IMAP,
-it should work on other clients too.
+it should work here too.

@@ -78,7 +78,7 @@ Additionally a short, informative sentence must be written as `before_login_hint
 
 ### BROKEN
 
-This status means that Chatmail will not work with this provider.
+This status means that chatmail/core will not work with this provider.
 
 The problems blocking the usage must be summarized as page content in a friendly tone.
 

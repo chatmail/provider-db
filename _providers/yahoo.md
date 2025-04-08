@@ -33,4 +33,4 @@ website: https://yahoo.com
 
 To use your Yahoo email address you have to create an "App-Password" in the account security screen:
 
-In your [account security screen](https://login.yahoo.com/account/security) you will find a setting titled "Generate app password". Please use it to generate an app password. Then enter the generated password in the client.
+In your [account security screen](https://login.yahoo.com/account/security) you will find a setting titled "Generate app password". Please use it to generate an app password. Then enter the generated password in the app.

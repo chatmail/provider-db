@@ -25,5 +25,5 @@ To enable using AOL, you have to turn on some extra settings:
   * On the left navigation panel, click *Personal Info*, then click back to *Account Security* to refresh the page.
 3. Select *Manage app passwords*, then from the Select your app pulldown, select "Other App."
 4. In the text field labeled Enter any name, then click the *Generate* button.
-5. Copy the password provided as you will need this in the client. If you write it down manually, leave out the spaces.
+5. Copy the password provided as you will need this in the app. If you write it down manually, leave out the spaces.
 

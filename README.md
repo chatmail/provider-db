@@ -3,7 +3,7 @@
 This repository collects information on email providers and their interoperability which is used by the chatmail/core library. 
 
 **The header of the files,** the _front matter_, is included into [chatmail/core](https://github.com/chatmail/core),
-to provides them to the [chatmail apps](https://chatmail.at/clients) on the different platforms.
+to provide them to the [chatmail apps](https://chatmail.at/clients) on the different platforms.
 Update is done by setting the desired commit as `REV=`
 in [chatmail/core/scripts/create-provider-data-rs.py](https://github.com/chatmail/core/blob/main/scripts/create-provider-data-rs.py) and the run the script.
 

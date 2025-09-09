@@ -17,7 +17,6 @@ server:
     port: 25
 config_defaults:
   delete_server_after: 1
-  sentbox_watch: 0
   mvbox_move: 0
   media_quality: 1
 last_checked: 2024-01

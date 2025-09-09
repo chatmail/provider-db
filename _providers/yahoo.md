@@ -14,6 +14,7 @@ domains:
   - yahoo.com.ar
   - yahoo.com.br
   - yahoo.com.mx
+  - myyahoo.com
   - ymail.com
   - rocketmail.com
   - yahoodns.net
@@ -26,11 +27,9 @@ server:
     socket: SSL
     hostname: smtp.mail.yahoo.com
     port: 465
-before_login_hint: To use your Yahoo email address you have to create an "App-Password" in the account security screen.
-last_checked: 2020-06
-website: https://yahoo.com
+before_login_hint: To use your Yahoo email address you have to create an app password in the Yahoo account security screen.
+last_checked: 2025-09
+website: https://www.yahoo.com
 ---
 
-To use your Yahoo email address you have to create an "App-Password" in the account security screen:
-
-In your [account security screen](https://login.yahoo.com/account/security) you will find a setting titled "Generate app password". Please use it to generate an app password. Then enter the generated password in the app.
+To use your Yahoo email address you have to create an app password in the [Yahoo account security screen](https://login.yahoo.com/account/security). There you will find a setting titled "Generate app password". Please use it to generate an app password. Then enter the generated password in the app.

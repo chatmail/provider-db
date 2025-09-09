@@ -22,7 +22,6 @@ server:
   socket: STARTTLS
 config_defaults:
   bcc_self: 1
-  sentbox_watch: 0
   mvbox_move: 0
 website: https://testrun.org
 last_checked: 2020-06

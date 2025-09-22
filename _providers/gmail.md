@@ -17,7 +17,7 @@ server:
 opt:
   delete_to_trash: true
 before_login_hint: |
-  For Gmail accounts, you need to have "2-Step Verification" enabled and create an app-password. Gmail also has a 500 correspondents limit per day (if you have a group chat with 100 users, sending 5 message is enough to reach the limit.)
+  For Gmail accounts, you need to have "2-Step Verification" enabled and create an app-password. Gmail limits how many messages you can send per day.
 last_checked: 2024-08
 website: https://gmail.com
 ---

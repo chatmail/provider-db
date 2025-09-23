@@ -37,3 +37,17 @@ Afterwards you can use your GMX email address and the newly created password.
 
 One more tip: In case you find that messages are not moved into the designated "DeltaChat"-folder of your email account, please make sure that you have less than 20 folders altogether. Apparently GMX Freemail allows only for 20 folders. Note that also folders in the trash do count.
 
+## Unlock your GMX account
+
+Some people have reported
+that their accounts were locked by GMX
+after heavy chatting.
+
+If Delta Chat stops working with your GMX account,
+you can usually resolve that by logging into the web interface
+and reset your password to be long & secure.
+
+If you chat a lot,
+consider adding a separate profile for that
+on a [Chatmail Relay](https://chatmail.at/relays).
+

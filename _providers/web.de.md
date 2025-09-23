@@ -72,3 +72,18 @@ Protection, as described here:
 ![3-Wege-Spamschutz in den web.de-Einstellungen](../assets/img/web.de-spam-protection.png)
 
 One more tip: In case you find that messages are not moved into the designated "DeltaChat"-folder of your email account, please make sure that you have less than 40 folders altogether. Apparently web.de allows only for 40 folders. Note that also folders in the trash do count.
+
+## Unlock your web.de account
+
+Some people have reported
+that their accounts were locked by web.de
+after heavy chatting.
+
+If Delta Chat stops working with your web.de account,
+you can usually resolve that by logging into the web interface
+and reset your password to be long & secure.
+
+If you chat a lot,
+consider adding a separate profile for that
+on a [Chatmail Relay](https://chatmail.at/relays).
+

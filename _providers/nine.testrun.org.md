@@ -35,7 +35,5 @@ server:
     port: 587
     username_pattern: EMAIL
 last_checked: 2024-06
-config_defaults:
-  mvbox_move: 0
 website: https://nine.testrun.org/
 ---

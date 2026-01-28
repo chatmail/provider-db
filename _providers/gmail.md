@@ -14,8 +14,6 @@ server:
     socket: SSL
     hostname: smtp.gmail.com
     port: 465
-opt:
-  delete_to_trash: true
 before_login_hint: |
   For Gmail accounts, you need to have "2-Step Verification" enabled and create an app-password. Gmail limits how many messages you can send per day.
 last_checked: 2024-08

@@ -1,6 +1,6 @@
 ---
 name: Posteo
-status: OK
+status: PREPARATION
 domains:
   - posteo.de
   - posteo.af
@@ -71,6 +71,11 @@ server:
   port: 587
   socket: STARTTLS
   type: smtp
-last_checked: 2024-08
+before_login_hint: "You must create an app-specific password before you can log in."
+last_checked: 2026-01
 website: https://posteo.de/
 ---
+
+To use your Posteo email address you have to generate a specific password for it.
+Here is a guide on how to do that (also in German and Spanish):
+<https://posteo.de/en/help/app-passwords>

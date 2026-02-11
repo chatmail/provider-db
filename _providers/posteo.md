@@ -76,6 +76,6 @@ last_checked: 2026-01
 website: https://posteo.de/
 ---
 
-To use your Fastmail email address you have to generate a specific password for it.
+To use your Posteo email address you have to generate a specific password for it.
 Here is a guide on how to do that (also in German and Spanish):
 <https://posteo.de/en/help/app-passwords>

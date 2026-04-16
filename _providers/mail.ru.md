@@ -18,7 +18,7 @@ server:
     hostname: smtp.mail.ru
     port: 465
 before_login_hint: Вам необходимо сгенерировать "пароль для внешнего приложения" в веб-интерфейсе mail.ru, чтобы mail.ru работал с chatmail.
-last_checked: 2021-07
+last_checked: 2026-04
 website: https://mail.ru/
 ---
 

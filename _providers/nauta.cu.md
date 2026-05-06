@@ -16,7 +16,6 @@ server:
     hostname: smtp.nauta.cu
     port: 25
 config_defaults:
-  delete_server_after: 1
   media_quality: 1
 last_checked: 2024-01
 skip_auto_test: true

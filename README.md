@@ -1,4 +1,22 @@
-# E-mail provider database 
+# E-mail provider database
+
+> ## This database is archived.
+>
+> This repository is **read-only** and no longer maintained.
+> Pull requests and issues are not processed anymore,
+> and the data is not updated or re-checked.
+>
+> The information here reflects the state of May 2026
+> and may be outdated or wrong by now.
+>
+> For chatting we recommend using a
+> [chatmail relay](https://chatmail.at/relays)
+> instead of a classic email provider.
+>
+> The remainder of this document is kept for historical reference.
+
+
+## Historic information about email provider settings
 
 This repository collects information on email providers and their interoperability which is used by the chatmail/core library. 
 

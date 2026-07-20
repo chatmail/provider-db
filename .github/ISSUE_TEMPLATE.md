@@ -1,4 +1,11 @@
 
+## This database is archived.
+
+This repository is read-only and no longer maintained.
+New issues and pull requests are not processed anymore.
+
+---
+
 ## Basic information (please modify and submit) 
 
 **Domain(s):** DOMAIN (the domain part of your e-mail that you tried it with) 

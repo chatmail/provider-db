@@ -19,6 +19,31 @@
     <div class="content">
       <img src='./assets/provider-db-logo.svg' class='provider-db-logo' alt=''/>
 
+        <div style="background: #ffe9c7; border: 2pt solid #d08700; padding: 0.5rem 1.5rem; margin-bottom: 2rem; clear: both;">
+            <h2 style="margin-top: 0.5rem;">This database is archived.</h2>
+            <p>
+            It is no longer maintained and receives no further updates.
+            The information on this page reflects the state of May 2026
+            and may be outdated or wrong by now.
+            </p>
+            <p>
+            For chatting, we recommend a <a href="https://chatmail.at/relays">chatmail relay</a>
+            instead of a classic email provider.
+            </p>
+            <p>
+            If you run your own mail server, the most reliable way to make it
+            work with email clients is to publish an
+            <a href="https://www.ietf.org/archive/id/draft-ietf-mailmaint-autoconfig-06.html#section-3.1">autoconfig file</a>
+            at
+            <code>/.well-known/autoconfig/mail/config-v1.1.xml</code> on your domain.
+            </p>
+            <p>
+            To set up a profile with a third-party classic email provider,
+            you may need the "advanced settings" during profile creation.
+            Please consult your provider for the required server settings.
+            </p>
+        </div>
+
         <div class='project-title'>Chatmail Provider Info</div>
         <h1>{{ page.name }}</h1>
         {% case page.status %}
@@ -43,7 +68,7 @@
         {% endcase %}
 	<p>Last checked: {{ page.last_checked }}</p>
         <div class='github-link'>
-          <a href="https://github.com/chatmail/provider-db/blob/master/{{page.path}}">Suggest Edits</a>
+          <a href="https://github.com/chatmail/provider-db/blob/master/{{page.path}}">View source (read-only archive)</a>
         </div>
     </div>
 </body>
